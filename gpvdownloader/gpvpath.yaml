@@ -1,0 +1,27 @@
+# 気象データの保管先定義
+
+#受信ディレクトリ
+DATADIR: /home/oonishi/Data/JMA
+
+#netcdf化したものを保管するディレクトリ
+## 季節予報
+CPS3_NCDIR: /home/oonishi/Git/JEPXbatch/data/Data_Meteo/JMA/CPS3/netCDF
+
+## GSM
+GSM_NCDIR: /home/oonishi/Git/JEPXbatch/data/Data_Meteo/JMA/GSM/netCDF
+
+
+#csvにしたものを保管するディレクトリ
+## 季節予報
+CPS3_CSVDIR: /home/oonishi/Git/JEPXbatch/data/Data_Meteo/JMA/CPS3/csv
+
+## GSM
+GSM_CSVDIR: /home/oonishi/Git/JEPXbatch/data/Data_Meteo/JMA/GSM/csv
+
+#dbのファイルパス
+DB_DIR: /home/oonishi/Git/JEPXbatch/data/jepx_batch.db
+
+#ログを吐き出すディレクトリ
+LOGDIR: /home/oonishi/Git/JEPXbatch/logs
+
+
