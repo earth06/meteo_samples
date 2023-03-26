@@ -1,7 +1,7 @@
 # 気象データの保管先定義
 
 #受信ディレクトリ
-DATADIR: /home/oonishi/Data/JMA
+DATADIR: /home/takato/Data/JMA/
 
 #netcdf化したものを保管するディレクトリ
 ## 季節予報
@@ -22,6 +22,6 @@ GSM_CSVDIR: /home/oonishi/Git/JEPXbatch/data/Data_Meteo/JMA/GSM/csv
 DB_DIR: /home/oonishi/Git/JEPXbatch/data/jepx_batch.db
 
 #ログを吐き出すディレクトリ
-LOGDIR: /home/oonishi/Git/JEPXbatch/logs
+LOGDIR: /home/takato/Data/JMA
 
 

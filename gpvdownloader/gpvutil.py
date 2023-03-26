@@ -52,7 +52,7 @@ def downloads_gpv(url,output="MSM",debug=False):
                 pbar.update(len(chunk))
         print(f"save to {output}/{basename}")
         pbar.close()
-        sleep(10)
+        sleep(1)
         return 0
     except Exception as e:
         with open(CONFIG["LOGDIR"]+"/failed_files.txt","ta") as flog:

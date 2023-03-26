@@ -88,7 +88,7 @@ elif product=="GSM":
             url=URL
         for f in gsmfiles:
             filepath=url+"/"+f
-            gpvutil.downloads_gpv(filepath,output=OUTPUT+"/"+d.strftime("%H%MUTC") +f"/{d.year:04d}/{d.month:02d}")
+            gpvutil.downloads_gpv(filepath,output=OUTPUT+"/jp/"+d.strftime("%H%MUTC") +f"/{d.year:04d}/{d.month:02d}")
 ##SFCT
 elif product=="SFCT":
     timerange=pd.date_range(begin,end,freq="D")
